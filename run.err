@@ -1,0 +1,719 @@
+[Moise] OrgBoard townorg created.
+[Moise] scheme created: trade: trade using artifact SchemeBoard
+[Moise] group created: towngrp: townGroup using artifact ora4mas.nopl.GroupBoard
+[Cartago] Workspace w created.
+[Cartago] artifact mkt: town.Market(14.0) at w created.
+[Cartago] artifact led: town.Ledger() at w created.
+[Cartago] artifact dash: town.TownDashboard(30) at w created.
+[firm_c] join workspace /main/townorg: done
+[h4] join workspace /main/townorg: done
+[h2] join workspace /main/townorg: done
+[h5] join workspace /main/townorg: done
+[timekeeper] join workspace /main/townorg: done
+[firm_a] join workspace /main/townorg: done
+[h6] join workspace /main/townorg: done
+[h1] join workspace /main/townorg: done
+[firm_c] join workspace /main/w: done
+[firm_c] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h2] join workspace /main/w: done
+[h2] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h4] join workspace /main/w: done
+[h4] focusing on artifact mkt (at workspace /main/w) using namespace default
+[firm_a] join workspace /main/w: done
+[timekeeper] join workspace /main/w: done
+[firm_a] focusing on artifact mkt (at workspace /main/w) using namespace default
+[firm_b] join workspace /main/townorg: done
+[timekeeper] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h6] join workspace /main/w: done
+[h1] join workspace /main/w: done
+[h3] join workspace /main/townorg: done
+[h5] join workspace /main/w: done
+[h6] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h1] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h5] focusing on artifact mkt (at workspace /main/w) using namespace default
+[firm_b] join workspace /main/w: done
+[firm_b] focusing on artifact mkt (at workspace /main/w) using namespace default
+[h2] focus on mkt: done
+[h2] focusing on artifact led (at workspace /main/w) using namespace default
+[h3] join workspace /main/w: done
+[h3] focusing on artifact mkt (at workspace /main/w) using namespace default
+[firm_a] focus on mkt: done
+[firm_a] focusing on artifact led (at workspace /main/w) using namespace default
+[h4] focus on mkt: done
+[h4] focusing on artifact led (at workspace /main/w) using namespace default
+[timekeeper] focus on mkt: done
+[timekeeper] focusing on artifact led (at workspace /main/w) using namespace default
+[h6] focus on mkt: done
+[h6] focusing on artifact led (at workspace /main/w) using namespace default
+[h1] focus on mkt: done
+[h1] focusing on artifact led (at workspace /main/w) using namespace default
+[firm_b] focus on mkt: done
+[firm_b] focusing on artifact led (at workspace /main/w) using namespace default
+[h5] focus on mkt: done
+[h5] focusing on artifact led (at workspace /main/w) using namespace default
+[h2] focus on led: done
+[h2] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h4] focus on led: done
+[h4] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[timekeeper] focus on led: done
+[firm_a] focus on led: done
+[firm_a] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h2] focus on towngrp: done
+[h2] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h1] focus on led: done
+[h1] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[firm_b] focus on led: done
+[firm_b] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h5] focus on led: done
+[h5] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[timekeeper] focusing on artifact dash (at workspace /main/w) using namespace default
+[h4] focus on towngrp: done
+[h4] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[firm_a] focus on towngrp: done
+[firm_a] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h6] focus on led: done
+[h6] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h3] focus on mkt: done
+[h1] focus on towngrp: done
+[h1] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h4] focus on townorg: done
+[h4] waiting for the market to open
+[timekeeper] focus on dash: done
+[timekeeper] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[firm_c] focus on mkt: done
+[firm_c] focusing on artifact led (at workspace /main/w) using namespace default
+[firm_a] focus on townorg: done
+[firm_a] waiting for the market to open
+[h3] focusing on artifact led (at workspace /main/w) using namespace default
+[firm_b] focus on towngrp: done
+[h2] focus on townorg: done
+[firm_b] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h3] focus on led: done
+[h3] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h1] focus on townorg: done
+[h1] waiting for the market to open
+[firm_b] focus on townorg: done
+[firm_b] waiting for the market to open
+[h3] focus on towngrp: done
+[h3] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[firm_a] firm_a enters the market: unit cost 7, capacity 1 unit(s) per round, overhead 0.5 per round
+[firm_a] firm_a: I undercut the market by 0.5 each round, down to cost + 0.5
+[firm_a] firm_a: I pay my labor cost and overhead to households, plus 0.5 of any profit as a dividend. If I cannot cover that, I leave the market
+[h6] focus on towngrp: done
+[h6] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h2] waiting for the market to open
+[h3] focus on townorg: done
+[h3] waiting for the market to open
+[h5] focus on towngrp: done
+[h5] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[firm_a] firm_a opened a firm account at 0 - no free endowment, I am capitalised only by what I sell
+[h4] account opened with 60 and a reservation price of 11
+[firm_b] firm_b enters the market: unit cost 8, capacity 1 unit(s) per round, overhead 0.5 per round
+[firm_c] focus on led: done
+[firm_c] focusing on artifact towngrp (at workspace /main/townorg) using namespace default
+[h1] account opened with 60 and a reservation price of 14
+[h6] focus on townorg: done
+[timekeeper] focus on towngrp: done
+[h6] waiting for the market to open
+[timekeeper] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h5] focus on townorg: done
+[h5] waiting for the market to open
+[firm_b] firm_b: I undercut the market by 0.5 each round, down to cost + 0.5
+[firm_b] firm_b opened a firm account at 0 - no free endowment, I am capitalised only by what I sell
+[firm_b] firm_b: I pay my labor cost and overhead to households, plus 0.5 of any profit as a dividend. If I cannot cover that, I leave the market
+[timekeeper] focus on townorg: done
+[firm_c] focus on towngrp: done
+[firm_c] focusing on artifact townorg (at workspace /main/townorg) using namespace default
+[h3] account opened with 60 and a reservation price of 12
+[firm_c] focus on townorg: done
+[firm_c] waiting for the market to open
+[h6] account opened with 60 and a reservation price of 8
+[h5] account opened with 60 and a reservation price of 9
+[timekeeper] === the town market opens ===
+[timekeeper] per round -> price | demand | supply | sold | unmet | seller | money
+[h2] account opened with 60 and a reservation price of 13
+[firm_c] firm_c enters the market: unit cost 9, capacity 1 unit(s) per round, overhead 0.5 per round
+[firm_c] firm_c: I undercut the market by 0.5 each round, down to cost + 0.5
+[firm_c] firm_c: I pay my labor cost and overhead to households, plus 0.5 of any profit as a dividend. If I cannot cover that, I leave the market
+[firm_c] firm_c opened a firm account at 0 - no free endowment, I am capitalised only by what I sell
+The maintenance condition of norm nOffer seems to point to a norm id (not ) that does not exit. Therefore 'not ' is considered literally as the maintenance condition!
+The maintenance condition of norm nOrder seems to point to a norm id (not ) that does not exit. Therefore 'not ' is considered literally as the maintenance condition!
+[h2] I am obliged to commit to mResident on trade... doing so
+[firm_b] I am obliged to commit to mFirm on trade... doing so
+[h1] I am obliged to commit to mResident on trade... doing so
+[h6] I am obliged to commit to mResident on trade... doing so
+[h4] I am obliged to commit to mResident on trade... doing so
+[h3] I am obliged to commit to mResident on trade... doing so
+[h5] I am obliged to commit to mResident on trade... doing so
+[firm_a] I am obliged to commit to mFirm on trade... doing so
+[firm_b] round 1: undercutting to 13.5 (market was 14, my cost 8)
+[firm_a] round 1: undercutting to 13.5 (market was 14, my cost 7)
+[h1] round 1: scheme order - ordered 1 unit at up to 14 (balance 60)
+[h6] round 1: scheme order - not buying - price 14 vs my limit 8 and my money 60
+[h5] round 1: scheme order - not buying - price 14 vs my limit 9 and my money 60
+[h2] round 1: scheme order - not buying - price 14 vs my limit 13 and my money 60
+[h3] round 1: scheme order - not buying - price 14 vs my limit 12 and my money 60
+[h4] round 1: scheme order - not buying - price 14 vs my limit 11 and my money 60
+[h2] round 1: not filled - wanted up to 13.5 and my limit is 13
+[h5] round 1: not filled - wanted up to 13.5 and my limit is 9
+[h3] round 1: not filled - wanted up to 13.5 and my limit is 12
+[h4] round 1: not filled - wanted up to 13.5 and my limit is 11
+[h6] round 1: not filled - wanted up to 13.5 and my limit is 8
+[h1] round 1: filled 1 unit from firm_b at 13.5 (balance 60 -> 46.5)
+[firm_c] round 1: could only pay part of what I owe - 0.5 now in arrears, threshold 1
+[firm_b] round 1: revenue 13.5 - labor 8 - overhead 0.5 = profit 5; paying 1.8333333333333333 to each of 6 households
+[firm_a] round 1: could only pay part of what I owe - 0.5 now in arrears, threshold 1
+[timekeeper] round 1 | price 13.5 | demand 1 | supply 2 | sold 1 | unmet 0 | seller firm_b | money 360
+[firm_b] round 2: undercutting to 13 (market was 13.5, my cost 8)
+[firm_a] round 2: undercutting to 13 (market was 13.5, my cost 7)
+[h5] round 2: scheme order - not buying - price 13.5 vs my limit 9 and my money 61.833333333333336
+[h2] round 2: scheme order - not buying - price 13.5 vs my limit 13 and my money 61.833333333333336
+[h4] round 2: scheme order - not buying - price 13.5 vs my limit 11 and my money 61.833333333333336
+[h3] round 2: scheme order - not buying - price 13.5 vs my limit 12 and my money 61.833333333333336
+[h6] round 2: scheme order - not buying - price 13.5 vs my limit 8 and my money 61.833333333333336
+[h1] round 2: scheme order - ordered 1 unit at up to 13.5 (balance 48.333333333333336)
+[h2] round 2: not filled - wanted up to 13 and my limit is 13
+[h4] round 2: not filled - wanted up to 13 and my limit is 11
+[h6] round 2: not filled - wanted up to 13 and my limit is 8
+[h5] round 2: not filled - wanted up to 13 and my limit is 9
+[h3] round 2: not filled - wanted up to 13 and my limit is 12
+[h1] round 2: filled 1 unit from firm_b at 13 (balance 48.333333333333336 -> 35.333333333333336)
+[firm_a] round 2: could only pay part of what I owe - 1 now in arrears, threshold 1
+[firm_b] round 2: revenue 13 - labor 8 - overhead 0.5 = profit 4.5; paying 1.7916666666666667 to each of 6 households
+[firm_c] round 2: could only pay part of what I owe - 1 now in arrears, threshold 1
+[timekeeper] round 2 | price 13 | demand 1 | supply 2 | sold 1 | unmet 0 | seller firm_b | money 360
+[firm_a] round 3: undercutting to 12.5 (market was 13, my cost 7)
+[firm_b] round 3: undercutting to 12.5 (market was 13, my cost 8)
+[h6] round 3: scheme order - not buying - price 13 vs my limit 8 and my money 63.625
+[h1] round 3: scheme order - ordered 1 unit at up to 13 (balance 37.125)
+[h5] round 3: scheme order - not buying - price 13 vs my limit 9 and my money 63.625
+[h2] round 3: scheme order - ordered 1 unit at up to 13 (balance 63.625)
+[h3] round 3: scheme order - not buying - price 13 vs my limit 12 and my money 63.625
+[h4] round 3: scheme order - not buying - price 13 vs my limit 11 and my money 63.625
+[h6] round 3: not filled - wanted up to 12.5 and my limit is 8
+[h4] round 3: not filled - wanted up to 12.5 and my limit is 11
+[h2] round 3: filled 1 unit from firm_b at 12.5 (balance 63.625 -> 51.125)
+[h5] round 3: not filled - wanted up to 12.5 and my limit is 9
+[h3] round 3: not filled - wanted up to 12.5 and my limit is 12
+[h1] round 3: filled 1 unit from firm_a at 12.5 (balance 37.125 -> 24.625)
+[firm_a] round 3: revenue 12.5 - labor 7 - overhead 0.5 = profit 5; paying 1.6666666666666667 to each of 6 households
+[firm_c] round 3: could only pay part of what I owe - 1.5 now in arrears, threshold 1
+[firm_b] round 3: revenue 12.5 - labor 8 - overhead 0.5 = profit 4; paying 1.75 to each of 6 households
+[timekeeper] round 3 | price 12.5 | demand 2 | supply 2 | sold 2 | unmet 0 | seller firm_b | money 360.00000000000006
+[firm_b] round 4: undercutting to 12 (market was 12.5, my cost 8)
+[firm_a] round 4: undercutting to 12 (market was 12.5, my cost 7)
+[h4] round 4: scheme order - not buying - price 12.5 vs my limit 11 and my money 67.04166666666667
+[h2] round 4: scheme order - ordered 1 unit at up to 12.5 (balance 54.541666666666664)
+[h5] round 4: scheme order - not buying - price 12.5 vs my limit 9 and my money 67.04166666666667
+[h1] round 4: scheme order - ordered 1 unit at up to 12.5 (balance 28.041666666666668)
+[h3] round 4: scheme order - not buying - price 12.5 vs my limit 12 and my money 67.04166666666667
+[h6] round 4: scheme order - not buying - price 12.5 vs my limit 8 and my money 67.04166666666667
+[h6] round 4: not filled - wanted up to 12 and my limit is 8
+[h4] round 4: not filled - wanted up to 12 and my limit is 11
+[h5] round 4: not filled - wanted up to 12 and my limit is 9
+[h2] round 4: filled 1 unit from firm_b at 12 (balance 54.541666666666664 -> 42.541666666666664)
+[h3] round 4: not filled - wanted up to 12 and my limit is 12
+[h1] round 4: filled 1 unit from firm_a at 12 (balance 28.041666666666668 -> 16.041666666666668)
+[firm_a] round 4: revenue 12 - labor 7 - overhead 0.5 = profit 4.5; paying 1.625 to each of 6 households
+[firm_b] round 4: revenue 12 - labor 8 - overhead 0.5 = profit 3.5; paying 1.7083333333333333 to each of 6 households
+[firm_c] round 4: BANKRUPT - I owed 1.5 on wages and overhead before this round and could not cover it. Revenue 0, labor 0, overhead 0.5. I am leaving the market.
+[timekeeper] round 4 | price 12 | demand 2 | supply 2 | sold 2 | unmet 0 | seller firm_b | money 360
+[firm_a] round 5: undercutting to 11.5 (market was 12, my cost 7)
+[firm_b] round 5: undercutting to 11.5 (market was 12, my cost 8)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h1,enabled(trade,order),done(trade,order,h1),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h1],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h1)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h2,enabled(trade,order),done(trade,order,h2),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h2],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h2)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h2] round 5: scheme order - ordered 1 unit at up to 12 (balance 45.875)
+[h4] round 5: scheme order - not buying - price 12 vs my limit 11 and my money 70.375
+[h6] round 5: scheme order - not buying - price 12 vs my limit 8 and my money 70.375
+[h3] round 5: scheme order - ordered 1 unit at up to 12 (balance 70.375)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h4,enabled(trade,order),done(trade,order,h4),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h4],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h4)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h5,enabled(trade,order),done(trade,order,h5),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h5],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h5)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h6,enabled(trade,order),done(trade,order,h6),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h6],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h6)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h3,enabled(trade,order),done(trade,order,h3),"2026-10-10 19:8:37")[created("2026-10-10 19:8:27"),norm(ngoal,[["A",h3],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h3)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h1] round 5: scheme order - ordered 1 unit at up to 12 (balance 19.375)
+[h5] round 5: scheme order - not buying - price 12 vs my limit 9 and my money 70.375
+[h1] round 5: not filled - wanted up to 11.5 and my limit is 14
+[h5] round 5: not filled - wanted up to 11.5 and my limit is 9
+[h4] round 5: not filled - wanted up to 11.5 and my limit is 11
+[h6] round 5: not filled - wanted up to 11.5 and my limit is 8
+[h2] round 5: filled 1 unit from firm_a at 11.5 (balance 45.875 -> 34.375)
+[h3] round 5: filled 1 unit from firm_b at 11.5 (balance 70.375 -> 58.875)
+[firm_c] round 5: retired - out of the market, so I pay nothing
+[firm_b] round 5: revenue 11.5 - labor 8 - overhead 0.5 = profit 3; paying 1.6666666666666667 to each of 6 households
+[firm_a] round 5: revenue 11.5 - labor 7 - overhead 0.5 = profit 4; paying 1.5833333333333333 to each of 6 households
+[timekeeper] round 5 | price 11.5 | demand 3 | supply 2 | sold 2 | unmet 1 | seller firm_b | money 360
+[NPLInterpreter_organisation(town)] ooops 3 obligation(firm_b,enabled(trade,offer),done(trade,offer,firm_b),"2026-10-10 19:8:39")[created("2026-10-10 19:8:29"),norm(ngoal,[["A",firm_b],["S",trade],["D","10 seconds"],["G",offer],["M",mFirm],["What",done(trade,offer,firm_b)]])] should be removed (due the deadline), but it is not in the set of facts.
+[firm_b] round 6: undercutting to 11 (market was 11.5, my cost 8)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(firm_a,enabled(trade,offer),done(trade,offer,firm_a),"2026-10-10 19:8:39")[created("2026-10-10 19:8:29"),norm(ngoal,[["A",firm_a],["S",trade],["D","10 seconds"],["G",offer],["M",mFirm],["What",done(trade,offer,firm_a)]])] should be removed (due the deadline), but it is not in the set of facts.
+[firm_a] round 6: undercutting to 11 (market was 11.5, my cost 7)
+[h5] round 6: scheme order - not buying - price 11.5 vs my limit 9 and my money 73.625
+[h4] round 6: scheme order - not buying - price 11.5 vs my limit 11 and my money 73.625
+[h6] round 6: scheme order - not buying - price 11.5 vs my limit 8 and my money 73.625
+[h1] round 6: scheme order - ordered 1 unit at up to 11.5 (balance 22.625)
+[h3] round 6: scheme order - ordered 1 unit at up to 11.5 (balance 62.125)
+[h2] round 6: scheme order - ordered 1 unit at up to 11.5 (balance 37.625)
+[h4] round 6: not filled - wanted up to 11 and my limit is 11
+[h2] round 6: not filled - wanted up to 11 and my limit is 13
+[h6] round 6: not filled - wanted up to 11 and my limit is 8
+[h5] round 6: not filled - wanted up to 11 and my limit is 9
+[h1] round 6: filled 1 unit from firm_a at 11 (balance 22.625 -> 11.625)
+[h3] round 6: filled 1 unit from firm_b at 11 (balance 62.125 -> 51.125)
+[firm_c] round 6: retired - out of the market, so I pay nothing
+[firm_b] round 6: revenue 11 - labor 8 - overhead 0.5 = profit 2.5; paying 1.625 to each of 6 households
+[firm_a] round 6: revenue 11 - labor 7 - overhead 0.5 = profit 3.5; paying 1.5416666666666667 to each of 6 households
+[timekeeper] round 6 | price 11 | demand 3 | supply 2 | sold 2 | unmet 1 | seller firm_b | money 360.00000000000006
+[firm_b] round 7: undercutting to 10.5 (market was 11, my cost 8)
+[firm_a] round 7: undercutting to 10.5 (market was 11, my cost 7)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h2,enabled(trade,order),done(trade,order,h2),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h2],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h2)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h3,enabled(trade,order),done(trade,order,h3),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h3],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h3)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h6] round 7: scheme order - not buying - price 11 vs my limit 8 and my money 76.79166666666667
+[h2] round 7: scheme order - ordered 1 unit at up to 11 (balance 40.791666666666664)
+[h4] round 7: scheme order - ordered 1 unit at up to 11 (balance 76.79166666666667)
+[h5] round 7: scheme order - not buying - price 11 vs my limit 9 and my money 76.79166666666667
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h4,enabled(trade,order),done(trade,order,h4),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h4],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h4)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h3] round 7: scheme order - ordered 1 unit at up to 11 (balance 54.291666666666664)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h5,enabled(trade,order),done(trade,order,h5),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h5],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h5)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h6,enabled(trade,order),done(trade,order,h6),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h6],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h6)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h1,enabled(trade,order),done(trade,order,h1),"2026-10-10 19:8:42")[created("2026-10-10 19:8:32"),norm(ngoal,[["A",h1],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h1)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h1] round 7: scheme order - ordered 1 unit at up to 11 (balance 14.791666666666666)
+[h1] round 7: not filled - wanted up to 10.5 and my limit is 14
+[h5] round 7: not filled - wanted up to 10.5 and my limit is 9
+[h6] round 7: not filled - wanted up to 10.5 and my limit is 8
+[h3] round 7: not filled - wanted up to 10.5 and my limit is 12
+[h2] round 7: filled 1 unit from firm_a at 10.5 (balance 40.791666666666664 -> 30.291666666666664)
+[h4] round 7: filled 1 unit from firm_b at 10.5 (balance 76.79166666666667 -> 66.29166666666667)
+[firm_c] round 7: retired - out of the market, so I pay nothing
+[firm_a] round 7: revenue 10.5 - labor 7 - overhead 0.5 = profit 3; paying 1.5 to each of 6 households
+[firm_b] round 7: revenue 10.5 - labor 8 - overhead 0.5 = profit 2; paying 1.5833333333333333 to each of 6 households
+[timekeeper] round 7 | price 10.5 | demand 4 | supply 2 | sold 2 | unmet 2 | seller firm_b | money 360
+[firm_a] round 8: undercutting to 10 (market was 10.5, my cost 7)
+[firm_b] round 8: undercutting to 10 (market was 10.5, my cost 8)
+[h6] round 8: scheme order - not buying - price 10.5 vs my limit 8 and my money 79.875
+[h3] round 8: scheme order - ordered 1 unit at up to 10.5 (balance 57.375)
+[h1] round 8: scheme order - ordered 1 unit at up to 10.5 (balance 17.874999999999996)
+[h5] round 8: scheme order - not buying - price 10.5 vs my limit 9 and my money 79.875
+[h4] round 8: scheme order - ordered 1 unit at up to 10.5 (balance 69.375)
+[h2] round 8: scheme order - ordered 1 unit at up to 10.5 (balance 33.375)
+[h2] round 8: not filled - wanted up to 10 and my limit is 13
+[h4] round 8: not filled - wanted up to 10 and my limit is 11
+[h6] round 8: not filled - wanted up to 10 and my limit is 8
+[h5] round 8: not filled - wanted up to 10 and my limit is 9
+[h3] round 8: filled 1 unit from firm_b at 10 (balance 57.375 -> 47.375)
+[h1] round 8: filled 1 unit from firm_a at 10 (balance 17.874999999999996 -> 7.8749999999999964)
+[firm_c] round 8: retired - out of the market, so I pay nothing
+[firm_a] round 8: revenue 10 - labor 7 - overhead 0.5 = profit 2.5; paying 1.4583333333333333 to each of 6 households
+[firm_b] round 8: revenue 10 - labor 8 - overhead 0.5 = profit 1.5; paying 1.5416666666666667 to each of 6 households
+[timekeeper] round 8 | price 10 | demand 4 | supply 2 | sold 2 | unmet 2 | seller firm_b | money 360
+[firm_b] round 9: undercutting to 9.5 (market was 10, my cost 8)
+[firm_a] round 9: undercutting to 9.5 (market was 10, my cost 7)
+[h6] round 9: scheme order - not buying - price 10 vs my limit 8 and my money 82.875
+[h4] round 9: scheme order - ordered 1 unit at up to 10 (balance 72.375)
+[h3] round 9: scheme order - ordered 1 unit at up to 10 (balance 50.375)
+[h5] round 9: scheme order - not buying - price 10 vs my limit 9 and my money 82.875
+[h2] round 9: scheme order - ordered 1 unit at up to 10 (balance 36.375)
+[h1] round 9: scheme order - ordered 1 unit at up to 10 (balance 10.874999999999996)
+[h2] round 9: not filled - wanted up to 9.5 and my limit is 13
+[h5] round 9: not filled - wanted up to 9.5 and my limit is 9
+[h1] round 9: not filled - wanted up to 9.5 and my limit is 14
+[h6] round 9: not filled - wanted up to 9.5 and my limit is 8
+[h3] round 9: filled 1 unit from firm_b at 9.5 (balance 50.375 -> 40.875)
+[h4] round 9: filled 1 unit from firm_a at 9.5 (balance 72.375 -> 62.875)
+[firm_c] round 9: retired - out of the market, so I pay nothing
+[firm_a] round 9: revenue 9.5 - labor 7 - overhead 0.5 = profit 2; paying 1.4166666666666667 to each of 6 households
+[firm_b] round 9: revenue 9.5 - labor 8 - overhead 0.5 = profit 1; paying 1.5 to each of 6 households
+[timekeeper] round 9 | price 9.5 | demand 4 | supply 2 | sold 2 | unmet 2 | seller firm_b | money 360.00000000000006
+[firm_a] round 10: undercutting to 9 (market was 9.5, my cost 7)
+[firm_b] round 10: undercutting to 9 (market was 9.5, my cost 8)
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h2,enabled(trade,order),done(trade,order,h2),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h2],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h2)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h3,enabled(trade,order),done(trade,order,h3),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h3],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h3)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h4,enabled(trade,order),done(trade,order,h4),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h4],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h4)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h5,enabled(trade,order),done(trade,order,h5),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h5],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h5)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h6,enabled(trade,order),done(trade,order,h6),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h6],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h6)]])] should be removed (due the deadline), but it is not in the set of facts.
+[NPLInterpreter_organisation(town)] ooops 3 obligation(h1,enabled(trade,order),done(trade,order,h1),"2026-10-10 19:8:49")[created("2026-10-10 19:8:39"),norm(ngoal,[["A",h1],["S",trade],["D","10 seconds"],["G",order],["M",mResident],["What",done(trade,order,h1)]])] should be removed (due the deadline), but it is not in the set of facts.
+[h2] round 10: scheme order - ordered 1 unit at up to 9.5 (balance 39.291666666666664)
+[h6] round 10: scheme order - not buying - price 9.5 vs my limit 8 and my money 85.79166666666667
+[h4] round 10: scheme order - ordered 1 unit at up to 9.5 (balance 65.79166666666667)
+[h1] round 10: scheme order - ordered 1 unit at up to 9.5 (balance 13.791666666666663)
+[h3] round 10: scheme order - ordered 1 unit at up to 9.5 (balance 43.791666666666664)
+[h5] round 10: scheme order - not buying - price 9.5 vs my limit 9 and my money 85.79166666666667
+[h5] round 10: not filled - wanted up to 9 and my limit is 9
+[h6] round 10: not filled - wanted up to 9 and my limit is 8
+[h3] round 10: not filled - wanted up to 9 and my limit is 12
+[h1] round 10: not filled - wanted up to 9 and my limit is 14
+[h2] round 10: filled 1 unit from firm_a at 9 (balance 39.291666666666664 -> 30.291666666666664)
+[h4] round 10: filled 1 unit from firm_b at 9 (balance 65.79166666666667 -> 56.79166666666667)
+[firm_c] round 10: retired - out of the market, so I pay nothing
+[firm_a] round 10: revenue 9 - labor 7 - overhead 0.5 = profit 1.5; paying 1.375 to each of 6 households
+[firm_b] round 10: revenue 9 - labor 8 - overhead 0.5 = profit 0.5; paying 1.4583333333333333 to each of 6 households
+[timekeeper] round 10 | price 9 | demand 4 | supply 2 | sold 2 | unmet 2 | seller firm_b | money 360
+[firm_a] round 11: undercutting to 8.5 (market was 9, my cost 7)
+[firm_b] round 11: undercutting to 8.5 (market was 9, my cost 8)
+[h4] round 11: scheme order - ordered 1 unit at up to 9 (balance 59.62500000000001)
+[h2] round 11: scheme order - ordered 1 unit at up to 9 (balance 33.125)
+[h1] round 11: scheme order - ordered 1 unit at up to 9 (balance 16.624999999999996)
+[h5] round 11: scheme order - ordered 1 unit at up to 9 (balance 88.625)
+[h3] round 11: scheme order - ordered 1 unit at up to 9 (balance 46.625)
+[h6] round 11: scheme order - not buying - price 9 vs my limit 8 and my money 88.625
+[h6] round 11: not filled - wanted up to 8.5 and my limit is 8
+[h5] round 11: not filled - wanted up to 8.5 and my limit is 9
+[h1] round 11: not filled - wanted up to 8.5 and my limit is 14
+[h3] round 11: not filled - wanted up to 8.5 and my limit is 12
+[h2] round 11: filled 1 unit from firm_b at 8.5 (balance 33.125 -> 24.625)
+[h4] round 11: filled 1 unit from firm_a at 8.5 (balance 59.62500000000001 -> 51.12500000000001)
+[firm_c] round 11: retired - out of the market, so I pay nothing
+[firm_a] round 11: revenue 8.5 - labor 7 - overhead 0.5 = profit 1; paying 1.3333333333333333 to each of 6 households
+[firm_b] round 11: revenue 8.5 - labor 8 - overhead 0.5 = profit 0; paying 1.4166666666666667 to each of 6 households
+[timekeeper] round 11 | price 8.5 | demand 5 | supply 2 | sold 2 | unmet 3 | seller firm_b | money 360
+[NPLInterpreter_organisation(town)] ooops 3 obligation(firm_b,enabled(trade,offer),done(trade,offer,firm_b),"2026-10-10 19:8:54")[created("2026-10-10 19:8:44"),norm(ngoal,[["A",firm_b],["S",trade],["D","10 seconds"],["G",offer],["M",mFirm],["What",done(trade,offer,firm_b)]])] should be removed (due the deadline), but it is not in the set of facts.
+[firm_b] round 12: at my floor 8.5 - I will not sell below cost 8, market is 8.5
+[firm_a] round 12: undercutting to 8 (market was 8.5, my cost 7)
+[h6] round 12: scheme order - not buying - price 8.5 vs my limit 8 and my money 91.375
+[h2] round 12: scheme order - ordered 1 unit at up to 8.5 (balance 27.375)
+[h4] round 12: scheme order - ordered 1 unit at up to 8.5 (balance 53.87500000000001)
+[h5] round 12: scheme order - ordered 1 unit at up to 8.5 (balance 91.375)
+[h3] round 12: scheme order - ordered 1 unit at up to 8.5 (balance 49.375)
+[h1] round 12: scheme order - ordered 1 unit at up to 8.5 (balance 19.374999999999996)
+[h6] round 12: not filled - wanted up to 8.25 and my limit is 8
+[h1] round 12: not filled - wanted up to 8.25 and my limit is 14
+[h3] round 12: not filled - wanted up to 8.25 and my limit is 12
+[h5] round 12: not filled - wanted up to 8.25 and my limit is 9
+[h2] round 12: filled 1 unit from firm_b at 8.5 (balance 27.375 -> 18.875)
+[h4] round 12: filled 1 unit from firm_a at 8 (balance 53.87500000000001 -> 45.87500000000001)
+[firm_c] round 12: retired - out of the market, so I pay nothing
+[firm_a] round 12: revenue 8 - labor 7 - overhead 0.5 = profit 0.5; paying 1.2916666666666667 to each of 6 households
+[firm_b] round 12: revenue 8.5 - labor 8 - overhead 0.5 = profit 0; paying 1.4166666666666667 to each of 6 households
+[timekeeper] round 12 | price 8.25 | demand 5 | supply 2 | sold 2 | unmet 3 | seller firm_b | money 360
+[firm_a] round 13: undercutting to 7.75 (market was 8.25, my cost 7)
+[firm_b] round 13: at my floor 8.5 - I will not sell below cost 8, market is 8.25
+[h6] round 13: scheme order - not buying - price 8.25 vs my limit 8 and my money 94.08333333333334
+[h3] round 13: scheme order - ordered 1 unit at up to 8.25 (balance 52.08333333333333)
+[h4] round 13: scheme order - ordered 1 unit at up to 8.25 (balance 48.583333333333336)
+[h1] round 13: scheme order - ordered 1 unit at up to 8.25 (balance 22.083333333333332)
+[h2] round 13: scheme order - ordered 1 unit at up to 8.25 (balance 21.583333333333336)
+[h5] round 13: scheme order - ordered 1 unit at up to 8.25 (balance 94.08333333333334)
+[h4] round 13: not filled - wanted up to 7.75 and my limit is 11
+[h5] round 13: not filled - wanted up to 7.75 and my limit is 9
+[h2] round 13: not filled - wanted up to 7.75 and my limit is 13
+[h6] round 13: not filled - wanted up to 7.75 and my limit is 8
+[h1] round 13: not filled - wanted up to 7.75 and my limit is 14
+[h3] round 13: filled 1 unit from firm_a at 7.75 (balance 52.08333333333333 -> 44.33333333333333)
+[firm_c] round 13: retired - out of the market, so I pay nothing
+[firm_a] round 13: revenue 7.75 - labor 7 - overhead 0.5 = profit 0.25; paying 1.2708333333333333 to each of 6 households
+[firm_b] round 13: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 13 | price 7.75 | demand 5 | supply 2 | sold 1 | unmet 4 | seller firm_a | money 360
+[firm_b] round 14: at my floor 8.5 - I will not sell below cost 8, market is 7.75
+[firm_a] round 14: at my floor 7.5 - I will not sell below cost 7, market is 7.75
+[h4] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 49.93750000000001)
+[h1] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 23.437499999999996)
+[h6] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 95.4375)
+[h3] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 45.6875)
+[h2] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 22.9375)
+[h5] round 14: scheme order - ordered 1 unit at up to 7.75 (balance 95.4375)
+[h2] round 14: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 14: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 14: not filled - wanted up to 7.5 and my limit is 9
+[h1] round 14: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 14: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 14: filled 1 unit from firm_a at 7.5 (balance 95.4375 -> 87.9375)
+[firm_c] round 14: retired - out of the market, so I pay nothing
+[firm_a] round 14: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 14: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 14 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 15: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 15: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h1] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 24.77083333333333)
+[h4] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 51.27083333333334)
+[h5] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 96.77083333333333)
+[h2] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 24.270833333333332)
+[h3] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 47.020833333333336)
+[h6] round 15: scheme order - ordered 1 unit at up to 7.5 (balance 89.27083333333333)
+[h5] round 15: not filled - wanted up to 7.5 and my limit is 9
+[h6] round 15: not filled - wanted up to 7.5 and my limit is 8
+[h1] round 15: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 15: not filled - wanted up to 7.5 and my limit is 12
+[h2] round 15: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 15: filled 1 unit from firm_a at 7.5 (balance 51.27083333333334 -> 43.77083333333334)
+[firm_c] round 15: retired - out of the market, so I pay nothing
+[firm_b] round 15: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[firm_a] round 15: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[timekeeper] round 15 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 16: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 16: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h2] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 25.604166666666664)
+[h3] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 48.35416666666667)
+[h1] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 26.10416666666666)
+[h6] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 90.60416666666666)
+[h4] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 45.10416666666668)
+[h5] round 16: scheme order - ordered 1 unit at up to 7.5 (balance 98.10416666666666)
+[h4] round 16: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 16: not filled - wanted up to 7.5 and my limit is 9
+[h2] round 16: not filled - wanted up to 7.5 and my limit is 13
+[h1] round 16: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 16: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 16: filled 1 unit from firm_a at 7.5 (balance 90.60416666666666 -> 83.10416666666666)
+[firm_c] round 16: retired - out of the market, so I pay nothing
+[firm_b] round 16: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[firm_a] round 16: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[timekeeper] round 16 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 17: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 17: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h6] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 84.43749999999999)
+[h4] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 46.437500000000014)
+[h3] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 49.68750000000001)
+[h1] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 27.437499999999993)
+[h2] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 26.937499999999996)
+[h5] round 17: scheme order - ordered 1 unit at up to 7.5 (balance 99.43749999999999)
+[h2] round 17: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 17: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 17: not filled - wanted up to 7.5 and my limit is 9
+[h1] round 17: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 17: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 17: filled 1 unit from firm_a at 7.5 (balance 84.43749999999999 -> 76.93749999999999)
+[firm_c] round 17: retired - out of the market, so I pay nothing
+[firm_a] round 17: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 17: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 17 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 359.99999999999994
+[firm_b] round 18: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 18: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h6] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 78.27083333333331)
+[h4] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 47.77083333333335)
+[h3] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 51.02083333333334)
+[h2] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 28.27083333333333)
+[h1] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 28.770833333333325)
+[h5] round 18: scheme order - ordered 1 unit at up to 7.5 (balance 100.77083333333331)
+[h1] round 18: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 18: not filled - wanted up to 7.5 and my limit is 9
+[h3] round 18: not filled - wanted up to 7.5 and my limit is 12
+[h4] round 18: not filled - wanted up to 7.5 and my limit is 11
+[h2] round 18: not filled - wanted up to 7.5 and my limit is 13
+[h6] round 18: filled 1 unit from firm_a at 7.5 (balance 78.27083333333331 -> 70.77083333333331)
+[firm_c] round 18: retired - out of the market, so I pay nothing
+[firm_a] round 18: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 18: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 18 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 359.99999999999994
+[firm_a] round 19: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 19: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h3] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 52.35416666666668)
+[h4] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 49.104166666666686)
+[h6] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 72.10416666666664)
+[h2] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 29.60416666666666)
+[h1] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 30.104166666666657)
+[h5] round 19: scheme order - ordered 1 unit at up to 7.5 (balance 102.10416666666664)
+[h2] round 19: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 19: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 19: not filled - wanted up to 7.5 and my limit is 9
+[h1] round 19: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 19: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 19: filled 1 unit from firm_a at 7.5 (balance 72.10416666666664 -> 64.60416666666664)
+[firm_c] round 19: retired - out of the market, so I pay nothing
+[firm_a] round 19: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 19: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 19 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 20: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 20: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h5] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 103.43749999999997)
+[h2] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 30.937499999999993)
+[h4] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 50.43750000000002)
+[h1] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 31.43749999999999)
+[h6] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 65.93749999999997)
+[h3] round 20: scheme order - ordered 1 unit at up to 7.5 (balance 53.687500000000014)
+[h2] round 20: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 20: not filled - wanted up to 7.5 and my limit is 11
+[h1] round 20: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 20: not filled - wanted up to 7.5 and my limit is 9
+[h3] round 20: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 20: filled 1 unit from firm_a at 7.5 (balance 65.93749999999997 -> 58.43749999999997)
+[firm_c] round 20: retired - out of the market, so I pay nothing
+[firm_a] round 20: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 20: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 20 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 21: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 21: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h6] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 59.77083333333331)
+[h2] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 32.27083333333333)
+[h4] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 51.77083333333336)
+[h1] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 32.77083333333332)
+[h3] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 55.02083333333335)
+[h5] round 21: scheme order - ordered 1 unit at up to 7.5 (balance 104.7708333333333)
+[h2] round 21: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 21: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 21: not filled - wanted up to 7.5 and my limit is 9
+[h1] round 21: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 21: not filled - wanted up to 7.5 and my limit is 12
+[h6] round 21: filled 1 unit from firm_a at 7.5 (balance 59.77083333333331 -> 52.27083333333331)
+[firm_c] round 21: retired - out of the market, so I pay nothing
+[firm_a] round 21: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 21: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 21 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 359.99999999999994
+[firm_a] round 22: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 22: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h2] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 33.604166666666664)
+[h1] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 34.10416666666666)
+[h4] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 53.10416666666669)
+[h5] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 106.10416666666663)
+[h3] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 56.354166666666686)
+[h6] round 22: scheme order - ordered 1 unit at up to 7.5 (balance 53.60416666666664)
+[h2] round 22: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 22: not filled - wanted up to 7.5 and my limit is 11
+[h6] round 22: not filled - wanted up to 7.5 and my limit is 8
+[h5] round 22: not filled - wanted up to 7.5 and my limit is 9
+[h3] round 22: not filled - wanted up to 7.5 and my limit is 12
+[h1] round 22: filled 1 unit from firm_a at 7.5 (balance 34.10416666666666 -> 26.604166666666657)
+[firm_c] round 22: retired - out of the market, so I pay nothing
+[firm_a] round 22: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 22: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 22 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 23: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 23: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h6] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 54.93749999999998)
+[h3] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 57.68750000000002)
+[h2] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 34.9375)
+[h5] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 107.43749999999996)
+[h1] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 27.93749999999999)
+[h4] round 23: scheme order - ordered 1 unit at up to 7.5 (balance 54.43750000000003)
+[h4] round 23: not filled - wanted up to 7.5 and my limit is 11
+[h1] round 23: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 23: not filled - wanted up to 7.5 and my limit is 9
+[h3] round 23: not filled - wanted up to 7.5 and my limit is 12
+[h2] round 23: not filled - wanted up to 7.5 and my limit is 13
+[h6] round 23: filled 1 unit from firm_a at 7.5 (balance 54.93749999999998 -> 47.43749999999998)
+[firm_c] round 23: retired - out of the market, so I pay nothing
+[firm_a] round 23: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 23: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 23 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 359.99999999999994
+[firm_a] round 24: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 24: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h2] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 36.270833333333336)
+[h4] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 55.770833333333364)
+[h6] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 48.770833333333314)
+[h3] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 59.02083333333336)
+[h1] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 29.27083333333332)
+[h5] round 24: scheme order - ordered 1 unit at up to 7.5 (balance 108.77083333333329)
+[h1] round 24: not filled - wanted up to 7.5 and my limit is 14
+[h6] round 24: not filled - wanted up to 7.5 and my limit is 8
+[h3] round 24: not filled - wanted up to 7.5 and my limit is 12
+[h2] round 24: not filled - wanted up to 7.5 and my limit is 13
+[h5] round 24: not filled - wanted up to 7.5 and my limit is 9
+[h4] round 24: filled 1 unit from firm_a at 7.5 (balance 55.770833333333364 -> 48.270833333333364)
+[firm_a] round 24: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_c] round 24: retired - out of the market, so I pay nothing
+[firm_b] round 24: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 24 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 25: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 25: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h1] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 30.604166666666654)
+[h4] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 49.6041666666667)
+[h6] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 50.10416666666665)
+[h5] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 110.10416666666661)
+[h3] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 60.35416666666669)
+[h2] round 25: scheme order - ordered 1 unit at up to 7.5 (balance 37.60416666666667)
+[h2] round 25: not filled - wanted up to 7.5 and my limit is 13
+[h3] round 25: not filled - wanted up to 7.5 and my limit is 12
+[h1] round 25: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 25: not filled - wanted up to 7.5 and my limit is 9
+[h6] round 25: not filled - wanted up to 7.5 and my limit is 8
+[h4] round 25: filled 1 unit from firm_a at 7.5 (balance 49.6041666666667 -> 42.1041666666667)
+[firm_c] round 25: retired - out of the market, so I pay nothing
+[firm_a] round 25: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 25: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 25 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_b] round 26: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[firm_a] round 26: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[h2] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 38.93750000000001)
+[h1] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 31.937499999999986)
+[h3] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 61.68750000000003)
+[h5] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 111.43749999999994)
+[h6] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 51.437499999999986)
+[h4] round 26: scheme order - ordered 1 unit at up to 7.5 (balance 43.437500000000036)
+[h1] round 26: not filled - wanted up to 7.5 and my limit is 14
+[h4] round 26: not filled - wanted up to 7.5 and my limit is 11
+[h6] round 26: not filled - wanted up to 7.5 and my limit is 8
+[h5] round 26: not filled - wanted up to 7.5 and my limit is 9
+[h2] round 26: not filled - wanted up to 7.5 and my limit is 13
+[h3] round 26: filled 1 unit from firm_a at 7.5 (balance 61.68750000000003 -> 54.18750000000003)
+[firm_c] round 26: retired - out of the market, so I pay nothing
+[firm_b] round 26: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[firm_a] round 26: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[timekeeper] round 26 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 27: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 27: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h6] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 52.77083333333332)
+[h2] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 40.27083333333334)
+[h4] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 44.77083333333337)
+[h3] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 55.520833333333364)
+[h1] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 33.27083333333332)
+[h5] round 27: scheme order - ordered 1 unit at up to 7.5 (balance 112.77083333333327)
+[h4] round 27: not filled - wanted up to 7.5 and my limit is 11
+[h5] round 27: not filled - wanted up to 7.5 and my limit is 9
+[h2] round 27: not filled - wanted up to 7.5 and my limit is 13
+[h3] round 27: not filled - wanted up to 7.5 and my limit is 12
+[h1] round 27: not filled - wanted up to 7.5 and my limit is 14
+[h6] round 27: filled 1 unit from firm_a at 7.5 (balance 52.77083333333332 -> 45.27083333333332)
+[firm_c] round 27: retired - out of the market, so I pay nothing
+[firm_a] round 27: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 27: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 27 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 28: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 28: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h4] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 46.10416666666671)
+[h6] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 46.60416666666666)
+[h5] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 114.1041666666666)
+[h3] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 56.8541666666667)
+[h1] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 34.60416666666666)
+[h2] round 28: scheme order - ordered 1 unit at up to 7.5 (balance 41.60416666666668)
+[h2] round 28: not filled - wanted up to 7.5 and my limit is 13
+[h4] round 28: not filled - wanted up to 7.5 and my limit is 11
+[h1] round 28: not filled - wanted up to 7.5 and my limit is 14
+[h3] round 28: not filled - wanted up to 7.5 and my limit is 12
+[h5] round 28: not filled - wanted up to 7.5 and my limit is 9
+[h6] round 28: filled 1 unit from firm_a at 7.5 (balance 46.60416666666666 -> 39.10416666666666)
+[firm_c] round 28: retired - out of the market, so I pay nothing
+[firm_b] round 28: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[firm_a] round 28: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[timekeeper] round 28 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 29: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 29: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h6] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 40.43749999999999)
+[h4] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 47.43750000000004)
+[h1] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 35.93749999999999)
+[h3] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 58.187500000000036)
+[h5] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 115.43749999999993)
+[h2] round 29: scheme order - ordered 1 unit at up to 7.5 (balance 42.937500000000014)
+[h4] round 29: not filled - wanted up to 7.5 and my limit is 11
+[h2] round 29: not filled - wanted up to 7.5 and my limit is 13
+[h3] round 29: not filled - wanted up to 7.5 and my limit is 12
+[h1] round 29: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 29: not filled - wanted up to 7.5 and my limit is 9
+[h6] round 29: filled 1 unit from firm_a at 7.5 (balance 40.43749999999999 -> 32.93749999999999)
+[firm_c] round 29: retired - out of the market, so I pay nothing
+[firm_a] round 29: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 29: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 29 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360
+[firm_a] round 30: at my floor 7.5 - I will not sell below cost 7, market is 7.5
+[firm_b] round 30: at my floor 8.5 - I will not sell below cost 8, market is 7.5
+[h2] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 44.27083333333335)
+[h3] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 59.52083333333337)
+[h6] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 34.27083333333333)
+[h4] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 48.77083333333338)
+[h1] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 37.27083333333333)
+[h5] round 30: scheme order - ordered 1 unit at up to 7.5 (balance 116.77083333333326)
+[h2] round 30: not filled - wanted up to 7.5 and my limit is 13
+[h6] round 30: not filled - wanted up to 7.5 and my limit is 8
+[h4] round 30: not filled - wanted up to 7.5 and my limit is 11
+[h1] round 30: not filled - wanted up to 7.5 and my limit is 14
+[h5] round 30: not filled - wanted up to 7.5 and my limit is 9
+[h3] round 30: filled 1 unit from firm_a at 7.5 (balance 59.52083333333337 -> 52.02083333333337)
+[firm_c] round 30: retired - out of the market, so I pay nothing
+[firm_a] round 30: revenue 7.5 - labor 7 - overhead 0.5 = profit 0; paying 1.25 to each of 6 households
+[firm_b] round 30: sold nothing, so no labor cost, but overhead 0.5 is still owed; paying 0.08333333333333333 to each of 6 households
+[timekeeper] round 30 | price 7.5 | demand 6 | supply 2 | sold 1 | unmet 5 | seller firm_a | money 360.00000000000006
+[timekeeper] === the town closes its books ===
+[timekeeper] after 30 rounds: final price 7.5  |  money still in circulation 360.00000000000006
+[timekeeper] firms still trading: 1
+[timekeeper] production cost, overhead and dividends paid to households: 348.625 across 6 households
+[timekeeper] money is conserved AND it is circulating. households paid
+[timekeeper] firms, firms paid households for the labour and rent they use,
+[timekeeper] and the only surplus left behind is retained profit.
+[timekeeper] ASK: a firm that is undercut out of the market has no labor
+[timekeeper]      cost to pay, but overhead does not care. what does that
+[timekeeper]      imply for how long an unprofitable firm can survive?

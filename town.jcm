@@ -1,0 +1,184 @@
+/*
+    town
+    ---------------------------
+
+    JaCaMo Application File
+
+    A small-town economy used to study prices, supply, demand, inflation,
+    taxes, employment and market power.
+
+    HOW TO READ THE PARAMETERS BELOW - they are the experiment, not
+    boilerplate. Change one at a time and re-run; the timekeeper prints a
+    per-round line so you can compare the two economies honestly.
+
+      firm     unit_cost
+                       unit cost. Higher cost means a higher floor, so
+                       this firm stops undercutting earlier and ends up
+                       with a thinner slice of the market.
+      firm     capacity units available per round. This is the scarcity
+                       lever: shrink total capacity below total demand and
+                       rationing appears as `unmet` in the report.
+      house    cash     endowment. A household that runs out drops out of
+                       the market permanently - it has no income yet.
+      house    reservation
+                       the most this household will pay. This spread,
+                       and nothing else, is the demand curve.
+
+    The starting price of 14.0 is set well above every firm's cost on
+    purpose, so that competition pushes the price down through the
+    households' reservation prices and you can watch demand grow as price
+    falls.
+*/
+
+mas town {
+
+    // ------------------------------------------------------------------
+// Supply side: three firms, three costs.
+    //
+    // A firm pays out, to households, its LABOR cost (unit_cost per unit
+    // sold), its OVERHEAD (fixed, every round, whether or not it sold), and a
+    // DIVIDEND of wage_share * profit. Wages are NOT a share of revenue: that
+    // would never charge the firm for making the goods, and money would be
+    // conserved while the firm quietly drained the households' endowments.
+    // Pay production cost first, dividend out of what is left.
+    //
+// overhead is what makes being OPEN cost something, which is the entire
+// basis of firm exit. Under Bertrand the price pins at
+// `cheapest cost + 0.5`, so late in a run firm_a earns only 0.5 per unit at
+// cost 7. Overhead is therefore the knife edge between survival and death:
+// early on, while prices start at 14, firm_a earns ~6.5 per sale and the
+// expensive firms earn 5.5 and 4.5, so all three bank reserves. Once the
+// price has collapsed, firm_a keeps clearing at cost + 0.5 while firm_b and
+// firm_c are undercut out of the market entirely and earn nothing above a
+// fixed bill they cannot stop paying. Overhead 1.2 is calibrated so firm_a
+// out-earns its rent and the other two out-run theirs. Try overhead(0.6) to
+// watch nobody ever leave, or overhead(2.0) to watch the efficient firm die
+// too - which is the point: Bertrand competition has no equilibrium that lets
+// a firm rest easy, which is precisely why firms have an incentive to collude.
+    //
+    // wage_share is the dividend lever: 0.0 retains all profit as capital,
+    // 1.0 hands every unit of surplus to households and firms never
+    // accumulate anything.
+    //
+    // Firms focus the ledger as well as the market, and open at zero, so they
+    // are capitalised purely by what they sell.
+    // ------------------------------------------------------------------
+    agent firm_a : firm.asl {
+        beliefs: unit_cost(7.0), capacity(1), overhead(0.5), wage_share(0.5)
+        focus:   w.mkt
+                 w.led
+        roles:   producer in towngrp
+    }
+
+    agent firm_b : firm.asl {
+        beliefs: unit_cost(8.0), capacity(1), overhead(0.5), wage_share(0.5)
+        focus:   w.mkt
+                 w.led
+        roles:   producer in towngrp
+    }
+
+    agent firm_c : firm.asl {
+        beliefs: unit_cost(9.0), capacity(1), overhead(0.5), wage_share(0.5)
+        focus:   w.mkt
+                 w.led
+        roles:   producer in towngrp
+    }
+
+    // ------------------------------------------------------------------
+    // Demand side: six households, one endowment, a spread of limits.
+    // ------------------------------------------------------------------
+    agent h1 : household.asl {
+        beliefs: cash(60.0), reservation(14.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    agent h2 : household.asl {
+        beliefs: cash(60.0), reservation(13.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    agent h3 : household.asl {
+        beliefs: cash(60.0), reservation(12.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    agent h4 : household.asl {
+        beliefs: cash(60.0), reservation(11.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    agent h5 : household.asl {
+        beliefs: cash(60.0), reservation(9.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    agent h6 : household.asl {
+        beliefs: cash(60.0), reservation(8.0)
+        focus:   w.mkt
+                 w.led
+        roles:   resident in towngrp
+    }
+
+    // ------------------------------------------------------------------
+    // The clock. Not a member of the town: it owns time, nothing else.
+    // max_rounds is how long the town runs before it closes its books.
+    // Set it to 200 to watch the money drain out of the households, or to
+    // 15 to stop while price is still falling.
+    //
+    // Keep this block shaped exactly like the household blocks above -
+    // beliefs, then focus, no blank lines and no comments inside. The jcm
+    // parser is not as forgiving as it looks, and a block it cannot read
+    // silently produces an agent that never focuses anything.
+    // ------------------------------------------------------------------
+    // The clock is a resident like everyone else, it simply never trades.
+    // Giving it the same `roles:` line as the firms and households is not
+    // cosmetic: an agent block with focus but no roles did not get focused
+    // at all, and the launcher said nothing about it.
+    agent timekeeper : timekeeper.asl {
+        beliefs: max_rounds(30)
+        focus:   w.mkt
+                 w.led
+                 w.dash
+        roles:   coordinator in towngrp
+    }
+
+    // ------------------------------------------------------------------
+    // The shared environment.
+    // ------------------------------------------------------------------
+    workspace w {
+        artifact mkt: town.Market(14.0)
+        artifact led: town.Ledger()
+        artifact dash: town.TownDashboard(30)
+    }
+
+    // ------------------------------------------------------------------
+    // The institution. See src/org/town-os.xml.
+    // ------------------------------------------------------------------
+    organisation townorg : town-os.xml {
+        group towngrp: townGroup {
+            players: firm_a producer
+                     firm_b producer
+                     firm_c producer
+                     h1     resident
+                     h2     resident
+                     h3     resident
+                     h4     resident
+                     h5     resident
+                     h6     resident
+        }
+        scheme trade: trade {
+            debug: inspector_gui(on)
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+Starting a Gradle Daemon, 100 busy Daemons could not be reused, use --status for details
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+
+
+*** The jason.jar from classpath is different than jason.jar from configuration, consider to delete the configuration (file ~/.jason/user.properties) or 'unset JASON_HOME'.
+Classpath is
+   C:\Users\Aoliken\.gradle\caches\modules-2\files-2.1\io.github.jason-lang\jason-interpreter\3.3.2\a61909ae79063a23ae6e42768f07d4c3ed849a40\jason-interpreter-3.3.2.jar
+Config    is
+   /C:/Users/Aoliken/.gradle/caches/modules-2/files-2.1/io.github.jason-lang/jason-interpreter/3.3.2/a61909ae79063a23ae6e42768f07d4c3ed849a40/jason-interpreter-3.3.2.jar
+
+
+Using the jason.jar from classpath
+
+Runtime Services (RTS) is running at 192.168.1.6:62773
+Agent mind inspector is running at http://192.168.1.6:3272
+CArtAgO Http Server running on http://192.168.1.6:3273
+Moise Http Server running on http://192.168.1.6:3271
+Screenshot saved: dashboard-final.png
